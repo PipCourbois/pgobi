@@ -1,0 +1,42 @@
+{
+  "name": "pgobi",
+  "description": "Modern GGobi clone - Multi-dimensional data visualization tool",
+  "version": "0.1.0",
+  "ecc": {
+    "version": "1.0.0",
+    "installType": "global",
+    "rules": [
+      "common",
+      "typescript",
+      "react",
+      "python",
+      "web"
+    ],
+    "skills": [],
+    "target": "claude"
+  },
+  "stack": {
+    "backend": {
+      "language": "python",
+      "framework": "fastapi",
+      "version": "3.11+"
+    },
+    "frontend": {
+      "language": "typescript",
+      "framework": "react",
+      "buildTool": "vite",
+      "libraries": [
+        "d3",
+        "plotly.js",
+        "zustand",
+        "tailwindcss"
+      ]
+    }
+  },
+  "notes": [
+    "ECC rules are installed globally at ~/.claude/rules/ecc/",
+    "This file documents which rule sets apply to this project",
+    "Local-first development, cloud-ready architecture",
+    "Manual git commits for full user control"
+  ]
+}
